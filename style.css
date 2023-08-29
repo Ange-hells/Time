@@ -1,0 +1,25 @@
+#option
+{
+    border-radius: 20px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #994DDD;
+}
+
+h1
+{
+    margin-bottom: 0px;
+}
+
+h2
+{
+    margin-bottom: 0px;
+}
+
+h3
+{
+    margin-top: 0px;
+}

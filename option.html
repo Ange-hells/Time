@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPQLT</title>
+	<link href="style.css" rel="stylesheet">
+	<style></style>
+</head>
+<body>
+	<div id=option>
+		<H1>Time</H1>
+		<H3>T(24)->T(10)</H3>
+		<span><H2>Description : </H2>Converticeur de Themp(24) en Themp(10)</span>
+		<span><H2>Editeur : </H2>SIO-SLAM</span>
+		<span><H2>Lien de mise a jour : </H2>/</span>
+		<span>
+			<H2>ChangeLog : </H2>
+			<!-- 0.1.1 :  </br>
+			0.1.0 :  </br>
+			0.0.3 :  </br>
+			0.0.2 :  </br> -->
+			0.0.1 : generation de l'extention </br></br>
+
+		</span>
+		<span>
+				<input type="radio" id="wheel" name="drone" value="huey" onclick="ChangeWheel('wheel')">wheel</input>
+				<input type="radio" id="test" name="drone" value="huey"  onclick="ChangeWheel('Test')">teste</input>
+		</span>
+	</div>
+	<script>
+		function ChangeWheel(selecWheel) {
+			localStorage.setItem('wheel', selecWheel+'.png');
+		}
+	</script>
+</body>
+</html>

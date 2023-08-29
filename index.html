@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<script src="phaser.min.js"></script>
+		<script src = "game.js"></script>
+		<script type="text/javascript">
+			function ConvTemp (TempImput){
+  				var TempDec = TempImput/60;
+				
+			}
+			function calcu (){
+				//var val = document.getElementById('client').value;
+				// var span = document.getElementById('reponse');
+				// var parts = val.split('h');
+				// var minutes = Number(parts[0])*60+Number(parts[1]);
+				 
+				// span.innerHTML = minutes;
+			}
+			</script>
+	</head>
+	<body>
+		<form id="calcul">
+			<label for="deb">debut : </label><br>		
+				<input type="text" id="deb">
+			</br>
+			<label for="fin">fin : </label><br>
+				<input type="text" id="fin">
+			
+			<input type="button" id="go_colc" title="GO" name="GO" value="GO" onclick=CalcTemp((document.getElementById(deb).value)(document.getElementById(fin).value))>
+		</form> 
+		<form id="converti">
+			<label for="temp">temps : </label><br>		
+				<input type="text" id="temp">
+
+			<input type="button" id="go_colc" title="GO" name="GO" value="GO" onclick=ConvTemp((document.getElementById(temp)))>
+
+			t10 = <spam id="TempDec"></spam>
+		</form>
+	</body>
+</html>

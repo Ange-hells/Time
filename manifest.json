@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Time",
+    "version": "0.0.1",
+    
+    "description": "Converticeur de Themp(24) en Themp(10)",
+    "options_page":"option.html",
+    "permissions": 
+    [ 
+        "http://*/*",
+        "https://*/*"
+
+    ],
+    "browser_action":
+    {
+        "default_popup": "index.html",
+        "default_icon": 
+        {
+            "32": "ico-32.png"
+        }
+    },
+    "icons": 
+    { 
+        "48": "ico-48.png"
+    },
+    "background": 
+    {
+        "scripts": ["index.html"]
+    }
+}
